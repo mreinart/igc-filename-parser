@@ -37,6 +37,7 @@ const tests = [
   ['2012_10_10_12_10_17.igc', data('2012-10-10')],
   ['igcdroid_2016_jan_30_13-14.igc', data('2016-01-30')],
   ['2013-01-08_flight_1.igc', data('2013-01-08', null, null, 1)],
+  ['2022-10-28-XSD-MRT-02.igc', data('2022-10-28', 'XSD', 'MRT', 2)],
 ];
 
 describe('IGC filename parser', () => {
