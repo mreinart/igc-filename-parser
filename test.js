@@ -39,6 +39,8 @@ const tests = [
   ['2013-01-08_flight_1.igc', data('2013-01-08', null, null, 1)],
   ['2019-08-19-XSD-GPB-01.igc', data('2019-08-19', 'XSD', 'GPB', 1)],
   ['2022-10-28-XSD-MRT-02.igc', data('2022-10-28', 'XSD', 'MRT', 2)],
+  ['2022-12-16-XSD-UBP-02.igc', data('2022-12-16', 'XSD', 'UBP', 2)],
+  ['2022-12-16-XSD-UB2F17-02.igc', data('2022-12-16', 'XSD', 'UB2F17', 2)],
   ['2022-07-11_13.02_Reinhardsmunster_S.igc', data('2022-07-11', null, null, null)],
   ['2022-10-28_16.38_Orensberg.igc', data('2022-10-28', null, null, null)],
 ];
