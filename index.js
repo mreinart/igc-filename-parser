@@ -5,7 +5,7 @@ const RE_STREPLA_PREFIX = /^([\da-z]{1,3})_(.*)$/i;
 const RE_SHORT = /^(\d)([1-9a-c])([1-9a-v])([\da-z])([\da-z]{3})([\da-z]).*\.igc$/i;
 const RE_LONG = /^(\d{4}-\d{2}-\d{2})(?:-([\da-z]{3})-([\da-z]{3,6})-(\d{2})|_flight_(\d+))?.*\.igc$/i;
 const RE_FULL_DATE = /^(\d{4}_\d{2}_\d{2})_\d{2}_\d{2}_\d{2}.*\.igc$/i;
-const RE_SHORT_DATE = /^(19\d{2}|20\d{2})[\.-_]?(\d{2})[\.-_]?(\d{2}).*\.igc$/i;
+const RE_SHORT_DATE = /^(19\d{2}|20\d{2})[.-_]?(\d{2})[.-_]?(\d{2}).*\.igc$/i;
 const RE_IGC_DROID = /^igcdroid_(\d{4})_([a-z]{3})_(\d{2}).*\.igc$/i;
 
 const CHARS = '0123456789abcdefghijklmnopqrstuvwxyz'.split('');
