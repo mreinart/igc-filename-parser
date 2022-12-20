@@ -4,7 +4,11 @@ igc-filename-parser
 [![Build Status](https://travis-ci.org/Turbo87/igc-filename-parser.svg?branch=master)](https://travis-ci.org/Turbo87/igc-filename-parser)
 
 IGC flight log filename parser
-
+- adapt to conform with igc_fr_specification_2022_with_al7_2022-1-31.pdf 
+  - A2.5.1 Long file name style
+  - example: 2021-05-15-MMM-XXXXXX-01.IGC
+      - MMM = manufacturer's three-letter IGC identifier
+      - XXXXXX = unique FR Serial ID (S/ID); 6 alphanumeric characters - 6 digits for the logger id
 
 Install
 ------------------------------------------------------------------------------
